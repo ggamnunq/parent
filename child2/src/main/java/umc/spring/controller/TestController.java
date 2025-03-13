@@ -9,6 +9,7 @@ public class TestController {
     @GetMapping
     public String index() {
         // feat/1 브랜치 적용
+        // parent에서 작업
         return "index";
     }
 
