@@ -8,6 +8,7 @@ public class TestController {
 
     @GetMapping
     public String index() {
+        // feat/1 브랜치 적용
         return "index";
     }
 
